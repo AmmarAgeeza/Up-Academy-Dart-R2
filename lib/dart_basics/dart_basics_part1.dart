@@ -50,8 +50,8 @@ void main() {
   data1 = 'ff';
 
   //num
-  num number = 5.5;
-  number = 5;
+  // num number = 5.5;
+  // number = 5;
 
   //Delaing with Strings
 
@@ -112,15 +112,52 @@ void main() {
   //1.search about Map and Set and other methods in String and List. 
 
   //opearators
+  //1.arthimatic
   int sumOfTwoNums=5+6; //add
   print(5-6); //subtraction
   print(5*6); //multiplication
   print(5/6); //division
   print(13%6); //modlas
   
-  //coumpound operator
+  //2.coumpound operator
   int sum=0;
-  sum =sum+1;
-  sum +=1;
-  print(5<6);
+  // sum =sum+1; 
+  // sum +=1;
+  // print(5<6);
+
+  // 3.increment and decrement
+
+  //sum++; //3.1 suffix
+  
+// print('value ${sum++}');
+// print(sum);
+
+  //++sum; //3.2 postfix
+  print('value ${++sum}');
+  print(sum);
+
+  //4.comparasion
+  print(1>5);
+  print(1!=5);
+  print(4<=5);
+  //5.logical operator
+
+    //5.1 and => both sides must be true to equal true
+  print(1==5 && 5>4); //false && ture 
+    
+    // 5.2 or => ||
+    print(1==10 || 5>11); //false || ture
+
+
+
+  // datatype  var name = value ;
+   int number =5; 
+   int num =6;
+  int  m=number*num;
+  print(m);
+  // calculate the area of the circle whose radius 2 meter
+  double pi =22/7;
+  int r=2;
+  double area=pi*r*r;
+  print(area);
 }
